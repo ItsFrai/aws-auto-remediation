@@ -1,0 +1,22 @@
+# Terraform ignores
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# Build and archive files
+*.zip
+handler.zip
+
+# Test event payloads and CLI output
+put_events.json
+event.json
+response.json
+
+# Python ignores
+__pycache__/
+*.py[cod]
+*.class
